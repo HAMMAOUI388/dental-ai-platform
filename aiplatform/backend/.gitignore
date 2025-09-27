@@ -1,0 +1,21 @@
+# macOS system files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+.env/
+
+# Model weights and large binaries
+*.pt
+*.pth
+*.onnx
+
+# Reports (PDFs, images, etc.)
+aiplatform/backend/app/reports/

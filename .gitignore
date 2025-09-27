@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual env
+venv/
+.env/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Reports
+aiplatform/backend/app/reports/
+
+# Node.js / Next.js frontend
+node_modules/
+.next/

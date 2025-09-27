@@ -1,0 +1,25 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Database & migrations
+sqlalchemy==2.0.34
+alembic==1.13.2
+psycopg2-binary==2.9.9
+
+# Data validation & uploads
+pydantic==2.9.2
+python-multipart==0.0.9
+
+# AI / ML
+ultralytics==8.3.18  # YOLOv8
+torch>=2.3.0
+torchvision>=0.18.0
+
+# PDF report generation
+reportlab==4.2.2
+
+# Utilities
+numpy==1.26.4
+pillow==10.4.0
+opencv-python-headless==4.10.0.84
